@@ -45,7 +45,7 @@ risk_band_options = {
 
 # 生成数据
 rows = []
-for i in range(1, 11):
+for i in range(1, 10000):
     risk_band = np.random.choice(risk_bands)
     risk_score = random.randint(*risk_band_options[risk_band]['score_range'])
     goal = np.random.choice(risk_band_options[risk_band]['goals'])
@@ -68,15 +68,17 @@ for i in range(1, 11):
 
     row = {
         'id': 10000 + i,
-        'irr_target': round(np.random.uniform(20, 60), 2) / 100,
-        'risk_tolerance_type_id': np.random.choice([1, 2, 3, 4]),
-        'liquidity_preference': liquidity,
-        'investor_type': investor_type,
-        'investment_profile': investment_profile,
-        'preferred_regions': np.random.choice(us_regions),
+        ####### key features for users investment###########
+        'irr_target': round(np.random.uniform(20, 60), 2)/100,
+        'risk_tolerance_type_id': np.random.choice([1, 2, 3, 4], p=[0.6, 0.2, 0.15, 0.05]),
+        'liquidity_preference': np.random.choice(liquidity_prefs),
+        'investor_type': np.random.choice(investor_types),
+        'investment_profile': np.random.choice(investor_types),
+        'preferred_regions': ', '.join(random.sample(us_regions, np.random.randint(1, 2))),
         'preferred_asset_types': ', '.join(random.sample(asset_types, np.random.randint(1, 3))),
         'portfolio_construction_goals': goal,
         'behavioral_profile': np.random.choice(behavior_profiles),
+        #########################################################
         'ticket_size_range': np.random.choice([5000, 25000, 100000, 500000, 1000000]),
         'date_of_birth': dob.strftime('%Y-%m-%d'),
         'email': fake.email(),
@@ -132,4 +134,4 @@ for i in range(1, 11):
 
 # 输出 CSV
 df = pd.DataFrame(rows)
-df.to_csv("fixed_investor_data_10_rows.csv", index=False)
+df.to_csv("fixed_investor_data_10000_rows.csv", index=False)
