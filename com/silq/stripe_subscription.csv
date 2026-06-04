@@ -1,0 +1,22 @@
+subscription_id,status,tier,billing_model,plan,monthly_equivalent,amount_charged,revenue_collected,created_date,billing_period_start,billing_period_end,days_as_subscriber,canceled_in_trial
+sub_1Tdt2YD,canceled,Basic,Monthly,Basic Monthly,$12.99,$12.99,$0.00,2026-06-02,2026-06-02,2026-06-05,3.0,Yes
+sub_1Tdsh8D,canceled,Basic,Monthly,Basic Monthly,$12.99,$12.99,$0.00,2026-06-02,2026-06-02,2026-06-05,3.0,Yes
+sub_1TdNTHD,canceled,Basic,Monthly,Basic Monthly,$12.99,$12.99,$0.00,2026-06-01,2026-06-01,2026-06-04,3.0,Yes
+sub_1TcPv5D,canceled,Basic,Monthly,Basic Monthly,$12.99,$12.99,$0.00,2026-05-29,2026-05-29,2026-06-01,3.0,Yes
+sub_1TbVggD,canceled,Basic,Annual,Basic Annual,$8.25,$99.00,$0.00,2026-05-27,2026-05-27,2026-05-30,3.0,Yes
+sub_1TaLSLD,canceled,Basic,Annual,Basic Annual,$8.25,$99.00,$99.00,2026-05-23,2026-05-26,2027-05-26,368.0,No
+sub_1TZjzoD,canceled,Basic,Annual,Basic Annual,$8.25,$99.00,$0.00,2026-05-22,2026-05-22,2026-05-25,3.0,Yes
+sub_1TYcy0D,canceled,Basic,Annual,Basic Annual,$8.25,$99.00,$99.00,2026-05-19,2026-05-22,2027-05-22,368.0,No
+sub_1TXueoD,canceled,Basic,Annual,Basic Annual,$8.25,$99.00,$99.00,2026-05-17,2026-05-20,2027-05-20,368.0,No
+sub_1TWv56D,canceled,Basic,Monthly,Basic Monthly,$12.99,$12.99,$0.00,2026-05-14,2026-05-14,2026-05-17,3.0,Yes
+sub_1TVs3sD,canceled,Basic,Monthly,Basic Monthly,$12.99,$12.99,$0.00,2026-05-11,2026-05-11,2026-05-14,3.0,Yes
+sub_1TUaECD,canceled,Basic,Annual,Basic Annual,$8.25,$99.00,$0.00,2026-05-07,2026-05-07,2026-05-10,3.0,Yes
+sub_1TTpF0D,canceled,Basic,Annual,Basic Annual,$8.25,$99.00,$0.00,2026-05-05,2026-05-05,2026-05-08,3.0,Yes
+sub_1TScRDD,canceled,Basic,Annual,Basic Annual,$8.25,$99.00,$99.00,2026-05-02,2026-05-05,2027-05-05,368.0,No
+sub_1TRjxpD,canceled,Basic,Monthly,Basic Monthly,$12.99,$12.99,$12.99,2026-04-30,2026-05-03,2026-06-03,34.0,No
+sub_1TQwniD,canceled,Basic,Monthly,Basic Monthly,$12.99,$12.99,$0.00,2026-04-27,2026-04-27,2026-04-30,3.0,Yes
+sub_1Te2E7D,active,Premium,Annual,Premium Annual,$12.42,$149.00,$149.00,2026-06-03,2026-06-03,2027-06-03,364.0,N/A
+sub_1TbmU6D,active,Basic,Annual,Basic Annual,$8.25,$99.00,$99.00,2026-05-27,2026-05-30,2027-05-30,357.8,N/A
+sub_1TbkJ9D,active,Basic,Monthly,Basic Monthly,$12.99,$12.99,$12.99,2026-05-27,2026-05-30,2026-06-30,357.7,N/A
+sub_1TbQ1GD,active,Premium,Monthly,Premium Monthly,$19.99,$19.99,$19.99,2026-05-26,2026-05-26,2026-06-26,356.8,N/A
+sub_1Tb5NbD,active,Premium,Monthly,Premium Monthly,$19.99,$19.99,$19.99,2026-05-25,2026-05-25,2026-06-25,355.9,N/A
